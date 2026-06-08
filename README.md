@@ -49,9 +49,8 @@ Key findings:
 
 | Certification | Issuer | Year |
 |---|---|---|
-| Google Cloud Professional | Google | 2025 |
-| DevOps Engineering | [Issuer] | 2025 |
-| GRE: 333/340 (V:165, Q:168) | ETS | 2025 |
+| Google Cloud Professional | Google | 2024-2026 |
+| GRE: 333/340 (V:165, Q:168) | ETS | 2024 |
 
 ---
 
