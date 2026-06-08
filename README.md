@@ -61,10 +61,6 @@ Contributed to the open source Kubernetes-native CI/CD pipeline
 project. Tekton is used by major enterprises for cloud-native 
 continuous integration workflows.
 
-**Kubernetes** — Cloud-native container orchestration  
-Hands-on experience deploying and managing containerized 
-applications on GCP using Kubernetes clusters.
-
 ---
 
 ## Education
