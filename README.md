@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Sahil Bhardwaj 👋</h1>
-<h3 align="center">MS IT Student · Full-Stack & AI Systems Builder</h3>
+<h3 align="center"> Full-Stack & AI Systems Builder</h3>
 
 <p align="center">
 📍 Mumbai, India &nbsp;|&nbsp; 🎓 GRE: 333/340 (V:165, Q:168) &nbsp;|&nbsp; ✉️ sahil.bhardwaj@somaiya.edu
@@ -63,13 +63,7 @@ I studied how model scale and prompting strategy affect LLM performance across d
 
 **Tekton Pipelines** - [github.com/tektoncd/pipeline](https://github.com/tektoncd/pipeline)
 Contributed to the Kubernetes-native CI/CD pipeline project used across cloud-native production environments.
-
----
-
-###  Education
-
-**MS Information Technology** (by Coursework) (2025-2027)
-Somaiya VidyaVihar University, Mumbai, India 
+ 
 
 ---
 
