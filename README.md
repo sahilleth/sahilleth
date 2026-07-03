@@ -53,15 +53,14 @@ I studied how model scale and prompting strategy affect LLM performance across d
 
 ### 🏆 Certifications & Achievements
 
-| Certification / Score | Issuer | Year |
-| Google Cloud Professional | Google | 2024–2026 |
-| GRE: 333/340 (V:165, Q:168) | ETS | 2024 |
+- **Google Cloud Professional | Google | 2024–2026 |
+- **GRE: 333/340 (V:165, Q:168) | ETS | 2024 |
 
 ---
 
 ###  Open Source Contributions
 
-**Tekton Pipelines** — [github.com/tektoncd/pipeline](https://github.com/tektoncd/pipeline)
+**Tekton Pipelines** - [github.com/tektoncd/pipeline](https://github.com/tektoncd/pipeline)
 Contributed to the Kubernetes-native CI/CD pipeline project used across cloud-native production environments.
 
 ---
