@@ -31,6 +31,7 @@ I studied how model scale and prompting strategy affect LLM performance across d
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[PromptLens](https://github.com/sahilleth/PromptLens)** | Observability stack for LLM apps and AI agents — captures prompts, responses, tool calls, memory ops, and RAG retrievals in a real-time, DevTools-style dashboard with session tracing and cost/latency analytics | FastAPI, TanStack Start (React), Python SDK, WebSocket, PostgreSQL |
 | **[Granthiq](https://github.com/sahilleth/Granthiq)** | Self-hostable AI document intelligence platform (NotebookLM-style) - hybrid RAG, HyDE query expansion, Cohere reranking, hallucination guardrails, a research agent, and MCP tools for Cursor/Claude Desktop | Next.js 16, FastAPI, Qdrant, Supabase, LlamaIndex |
 | **[nirmaan](https://github.com/sahilleth/nirmaan)** | Model-agnostic terminal coding agent, fully instrumented for research - event traces, cache-aware compaction, ablation toggles, and benchmark suites | Python, Groq/OpenAI/vLLM/Ollama, OpenTelemetry |
 | **[sarvamdesk](https://github.com/sahilleth/sarvamdesk)** | Production-grade IT Service Management (ITSM) platform with microservices for tickets, assets, SLAs, and a knowledge base | Java 17, Spring Boot 3, React, Kafka, PostgreSQL |
@@ -43,7 +44,7 @@ I studied how model scale and prompting strategy affect LLM performance across d
 ###  Technical Skills
 
 - **ML / NLP:** HuggingFace, PyTorch, LLaMA, Groq API, RAG, XQuAD, LlamaIndex
-- **Backend:** Python, Java (Spring Boot), FastAPI, Node.js
+- **Backend:** Python, Java (Spring Boot), FastAPI, Node.js , Express.js
 - **Frontend:** React, Next.js, TypeScript, Tailwind CSS
 - **Infra / DevOps:** Docker, Kubernetes, Tekton Pipelines, Terraform, CI/CD
 - **Data / Vector:** PostgreSQL, Qdrant, Redis, Kafka
