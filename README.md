@@ -42,11 +42,11 @@ I studied how model scale and prompting strategy affect LLM performance across d
 
 ###  Technical Skills
 
-**ML / NLP:** HuggingFace, PyTorch, LLaMA, Groq API, RAG, XQuAD, LlamaIndex
-**Backend:** Python, Java (Spring Boot), FastAPI, Node.js
-**Frontend:** React, Next.js, TypeScript, Tailwind CSS
-**Infra / DevOps:** Docker, Kubernetes, Tekton Pipelines, Terraform, CI/CD
-**Data / Vector:** PostgreSQL, Qdrant, Redis, Kafka
+**ML / NLP:** HuggingFace, PyTorch, LLaMA, Groq API, RAG, XQuAD, LlamaIndex |
+**Backend:** Python, Java (Spring Boot), FastAPI, Node.js |
+**Frontend:** React, Next.js, TypeScript, Tailwind CSS |
+**Infra / DevOps:** Docker, Kubernetes, Tekton Pipelines, Terraform, CI/CD |
+**Data / Vector:** PostgreSQL, Qdrant, Redis, Kafka |
 **Cloud:** Google Cloud Platform (Certified) , AWS , Azure 
 
 ---
