@@ -17,7 +17,7 @@ I split my time between **NLP research** (cross-lingual transfer, LLM evaluation
 
 I studied how model scale and prompting strategy affect LLM performance across diverse script families.
 
-**Current paper:** *Scale Helps, Few-Shot Hurts: Evaluating LLMs Across Five Non-Latin Scripts* (arXiv — coming soon)
+**Current paper:** *Scale Helps, Few-Shot Hurts: Evaluating LLMs Across Five Non-Latin Scripts* 
 
 - Scaling LLaMA 3.1 8B → 3.3 70B closes the English-bias for Hindi, Thai and Chinese (**+8%** each), but Arabic uniquely resists (**+2%**)
 - Few-shot prompting improves English (**+3%**) but *hurts* every non-Latin script except Chinese — Arabic drops **−6%**
@@ -53,8 +53,8 @@ I studied how model scale and prompting strategy affect LLM performance across d
 
 ### 🏆 Certifications & Achievements
 
-- **Google Cloud Professional | Google | 2024–2026 |
-- **GRE: 333/340 (V:165, Q:168) | ETS | 2024 |
+- **Google Cloud Professional** | Google | 2024–2026 |
+- **GRE:** 333/340 (V:165, Q:168) | ETS | 2024 |
 
 ---
 
