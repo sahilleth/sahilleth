@@ -1,83 +1,170 @@
-<h1 align="center">Hi, I'm Sahil Bhardwaj 👋</h1>
-<h3 align="center"> Full-Stack & AI Systems Builder</h3>
+<h1 align="center">Hi 👋, I'm Sahil Bhardwaj</h1>
+
+<h3 align="center">
+Production Engineer • Open Source Contributor • Cloud Native • Kubernetes • Platform Engineering
+</h3>
 
 <p align="center">
-📍 Mumbai, India &nbsp;|&nbsp; 🎓 GRE: 333/340 (V:165, Q:168) &nbsp;|&nbsp; ✉️ sahil.bhardwaj@somaiya.edu
+📍 Mumbai, India &nbsp;|&nbsp;
+☁️ Kubernetes • Tekton • ML-Flow • Go • Java • Spring Boot
 </p>
 
 ---
 
-###  About Me
+# 👨‍💻 About Me
 
-I split my time between **NLP research** (cross-lingual transfer, LLM evaluation on non-Latin scripts) and **building full production systems**  RAG platforms, ITSM tools, agent harnesses, and DeFi UIs. I like projects that go end-to-end: architecture, infra, and the paper/README to explain why it works.
+Actively contributing to **Kubernetes**, **Tekton Pipelines**, **TensorFlow**, **KServe**, **HolmesGPT**, and other cloud-native open-source projects.
 
----
-
-###  Research
-
-I studied how model scale and prompting strategy affect LLM performance across diverse script families.
-
-**Current paper:** *Scale Helps, Few-Shot Hurts: Evaluating LLMs Across Five Non-Latin Scripts* 
-
-- Scaling LLaMA 3.1 8B → 3.3 70B closes the English-bias for Hindi, Thai and Chinese (**+8%** each), but Arabic uniquely resists (**+2%**)
-- Few-shot prompting improves English (**+3%**) but *hurts* every non-Latin script except Chinese — Arabic drops **−6%**
-- Tokenizer inflation alone doesn't explain the Arabic gap — points to morphological complexity as the real driver
-
-📄 [Read the paper & results →](https://github.com/sahilleth/llm-multilingual-evaluation)
+I'm passionate about building scalable backend systems, distributed platforms, Kubernetes controllers, developer tooling, observability, and AI-powered applications.
 
 ---
 
-###  Projects
+# Open Source Contributions
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[PromptLens](https://github.com/sahilleth/PromptLens)** | Observability stack for LLM apps and AI agents — captures prompts, responses, tool calls, memory ops, and RAG retrievals in a real-time, DevTools-style dashboard with session tracing and cost/latency analytics | FastAPI, TanStack Start (React), Python SDK, WebSocket, PostgreSQL |
-| **[Granthiq](https://github.com/sahilleth/Granthiq)** | Self-hostable AI document intelligence platform (NotebookLM-style) - hybrid RAG, HyDE query expansion, Cohere reranking, hallucination guardrails, a research agent, and MCP tools for Cursor/Claude Desktop | Next.js 16, FastAPI, Qdrant, Supabase, LlamaIndex |
-| **[nirmaan](https://github.com/sahilleth/nirmaan)** | Model-agnostic terminal coding agent, fully instrumented for research - event traces, cache-aware compaction, ablation toggles, and benchmark suites | Python, Groq/OpenAI/vLLM/Ollama, OpenTelemetry |
-| **[sarvamdesk](https://github.com/sahilleth/sarvamdesk)** | Production-grade IT Service Management (ITSM) platform with microservices for tickets, assets, SLAs, and a knowledge base | Java 17, Spring Boot 3, React, Kafka, PostgreSQL |
-| **[Frost](https://github.com/sahilleth/Frost)** | Solana staking platform - non-custodial staking UI with live TVL/APY stats and DeFi ecosystem integrations (Orca, Jupiter, Solend, Marinade) | React, TypeScript, Vite, Tailwind |
-| **[Fusion](https://github.com/sahilleth/Fusion)** | React + TypeScript frontend project (Vite, shadcn/ui) | React, TypeScript, Vite |
-| **[llm-multilingual-evaluation](https://github.com/sahilleth/llm-multilingual-evaluation)** | Research repo for the paper above - LLaMA 8B vs 70B across 5 non-Latin scripts on XQuAD | Python, Jupyter, Groq API |
+## ☸ Kubernetes
+
+- API Server webhook endpoint readiness improvements.
+- API Machinery validation enhancements.
+- Production-grade fixes around admission and endpoint selection.
+- Working with SIG API Machinery maintainers on controller/runtime internals.
 
 ---
 
-###  Technical Skills
+## ⚙️ Tekton Pipelines (Merged)
 
-- **ML / NLP:** HuggingFace, PyTorch, LLaMA, Groq API, RAG, XQuAD, LlamaIndex
-- **Backend:** Python, Java (Spring Boot), FastAPI, Node.js , Express.js
-- **Frontend:** React, Next.js, TypeScript, Tailwind CSS
-- **Infra / DevOps:** Docker, Kubernetes, Tekton Pipelines, Terraform, CI/CD
-- **Data / Vector:** PostgreSQL, Qdrant, Redis, Kafka
-- **Cloud:** Google Cloud Platform (Certified), AWS, Azure
+✅ Introduced **TaskRun Pending State**, enabling pending execution behavior similar to PipelineRuns.
 
----
+✅ Optimized controller performance by stripping **ManagedFields** before informer cache insertion, reducing memory usage and DeepCopy overhead.
 
-### 🏆 Certifications & Achievements
+🚧 Working on:
 
-- **Google Cloud Professional** | Google | 2024–2026 |
-- **GRE:** 333/340 (V:165, Q:168) | ETS | 2024 |
+- ResolutionRequest reconciliation improvements
+- OpenTelemetry trace propagation
+- Kubernetes Event tracing
+- Controller performance enhancements
 
 ---
 
-###  Open Source Contributions
+## TensorFlow
 
-**Tekton Pipelines** - [github.com/tektoncd/pipeline](https://github.com/tektoncd/pipeline)
-Contributed to the Kubernetes-native CI/CD pipeline project used across cloud-native production environments.
- 
-
----
-
-###  Research Interests
-
-- Multilingual NLP and cross-lingual transfer
-- LLM evaluation across low-resource languages
-- Indic language NLP (Hindi, Bengali, Tamil)
-- Efficient multilingual models and encoder injection
+- Fixed `tf.linalg.logdet()` to correctly return **-∞** for singular matrices instead of **NaN**.
+- Added comprehensive regression tests.
+- Worked directly with TensorFlow maintainers through review iterations.
 
 ---
 
-###  Contact
+##  KServe
 
-- ✉️ [sahil.bhardwaj@somaiya.edu](mailto:sahil.bhardwaj@somaiya.edu)
-- 💼 [LinkedIn](https://www.linkedin.com/in/sahil-bhardwaj-513326208/)
-- 🔬 [Research repo](https://github.com/sahilleth/llm-multilingual-evaluation)
+- Documentation improvements.
+- HTTPRoute specification clarifications.
+- Networking and serving enhancements.
+
+---
+
+## HolmesGPT
+
+- Added W3C Trace Context extraction support for FastAPI requests.
+
+---
+
+## MLRun
+
+- Fixed project configuration loading for Git/API-based projects.
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description |
+|---------|-------------|
+| **SarvamDesk** | Enterprise-grade IT Service Management platform with ticketing, assets, SLA automation and microservices architecture. |
+| **PromptLens** | OpenTelemetry-powered observability platform for AI agents with traces, sessions, prompt analytics and cost monitoring. |
+| **Granthiq** | NotebookLM-inspired AI knowledge platform featuring Hybrid RAG, MCP integration, reranking and research agents. |
+| **Nirmaan** | Terminal-based coding agent supporting OpenAI, Groq, Ollama and vLLM with event tracing and benchmarking. |
+| **DropTag** | Secure file & text sharing platform with temporary rooms and cloud storage. |
+
+---
+
+# Technical Skills
+
+### Languages
+
+- Go
+- Java
+- Python
+- TypeScript
+
+### Backend
+
+- Spring Boot
+- FastAPI
+- Node.js
+- Express
+
+### Cloud Native
+
+- Kubernetes
+- Tekton Pipelines
+- Docker
+- OpenTelemetry
+- Prometheus
+- Grafana
+
+### Databases
+
+- PostgreSQL
+- Redis
+- Qdrant
+- MongoDB
+
+### DevOps
+
+- GitHub Actions , ArgoCD
+- CI/CD
+- Linux
+- Git
+- Terraform
+
+### Cloud
+
+- Google Cloud Platform
+- AWS
+- Microsoft Azure
+
+---
+
+# 🏆 Highlights
+
+- Multiple merged contributions to **Tekton Pipelines**
+- Active contributor to **Kubernetes**
+- Contributor to **TensorFlow**
+- Contributor to **Spring AI**
+- Contributor to **Falco**
+- Contributor to **KServe**
+- Contributor to **HolmesGPT**
+- Contributor to **MLRun**
+
+---
+
+#  Currently Learning
+
+- Kubernetes API Machinery
+- Controller Runtime
+- Distributed Systems
+- Platform Engineering
+- OpenTelemetry
+- Service Mesh
+- Cloud Native Architecture
+
+---
+
+#  Connect with Me
+
+- LinkedIn: https://www.linkedin.com/in/sahil-bhardwaj-513326208/
+- 📧 Email: sahill.bhardwaj23@gmail.com
+
+---
+
+<p align="center">
+⭐ If you like my work, feel free to connect or collaborate on Open Source projects!
+</p>
